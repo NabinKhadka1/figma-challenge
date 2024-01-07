@@ -18,35 +18,35 @@ const cards_data = [
                     img: GraphLogo,
                     title: 'Accordion title',
                     dropdownImg: DropdownArrow,
-                    desc: '',
+                    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
                     id: 1001
                 },
                 {
                     img: CircleLogo,
                     title: 'Accordion title',
                     dropdownImg: DropdownArrow,
-                    desc: '',
+                    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
                     id: 1002
                 },
                 {
                     img: GraphLogo,
                     title: 'Accordion title',
                     dropdownImg: DropdownArrow,
-                    desc: '',
+                    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
                     id: 1003
                 },
                 {
                     img: CircleLogo,
                     title: 'Accordion title',
                     dropdownImg: DropdownArrow,
-                    desc: '',
+                    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
                     id: 1004
                 },
                 {
                     img: GraphLogo,
                     title: 'Accordion title',
                     dropdownImg: DropdownArrow,
-                    desc: '',
+                    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
                     id: 1005
                 }
             ]
@@ -70,35 +70,35 @@ const cards_data = [
                     img: GraphLogo,
                     title: 'Accordion title',
                     dropdownImg: DropdownArrow,
-                    desc: '',
+                    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
                     id: 2001
                 },
                 {
                     img: CircleLogo,
                     title: 'Accordion title',
                     dropdownImg: DropdownArrow,
-                    desc: '',
+                    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
                     id: 2002
                 },
                 {
                     img: GraphLogo,
                     title: 'Accordion title',
                     dropdownImg: DropdownArrow,
-                    desc: '',
+                    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
                     id: 2003
                 },
                 {
                     img: CircleLogo,
                     title: 'Accordion title',
                     dropdownImg: DropdownArrow,
-                    desc: '',
+                    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
                     id: 2004
                 },
                 {
                     img: GraphLogo,
                     title: 'Accordion title',
                     dropdownImg: DropdownArrow,
-                    desc: '',
+                    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
                     id: 2005
                 }
             ]
@@ -122,35 +122,35 @@ const cards_data = [
                     img: GraphLogo,
                     title: 'Accordion title',
                     dropdownImg: DropdownArrow,
-                    desc: '',
+                    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
                     id: 3001
                 },
                 {
                     img: CircleLogo,
                     title: 'Accordion title',
                     dropdownImg: DropdownArrow,
-                    desc: '',
+                    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
                     id: 3002
                 },
                 {
                     img: GraphLogo,
                     title: 'Accordion title',
                     dropdownImg: DropdownArrow,
-                    desc: '',
+                    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
                     id: 3003
                 },
                 {
                     img: CircleLogo,
                     title: 'Accordion title',
                     dropdownImg: DropdownArrow,
-                    desc: '',
+                    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
                     id: 3004
                 },
                 {
                     img: GraphLogo,
                     title: 'Accordion title',
                     dropdownImg: DropdownArrow,
-                    desc: '',
+                    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
                     id: 3005
                 }
             ]
@@ -174,35 +174,35 @@ const cards_data = [
                     img: GraphLogo,
                     title: 'Accordion title',
                     dropdownImg: DropdownArrow,
-                    desc: '',
+                    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
                     id: 4001
                 },
                 {
                     img: CircleLogo,
                     title: 'Accordion title',
                     dropdownImg: DropdownArrow,
-                    desc: '',
+                    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
                     id: 4002
                 },
                 {
                     img: GraphLogo,
                     title: 'Accordion title',
                     dropdownImg: DropdownArrow,
-                    desc: '',
+                    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
                     id: 4003
                 },
                 {
                     img: CircleLogo,
                     title: 'Accordion title',
                     dropdownImg: DropdownArrow,
-                    desc: '',
+                    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
                     id: 4004
                 },
                 {
                     img: GraphLogo,
                     title: 'Accordion title',
                     dropdownImg: DropdownArrow,
-                    desc: '',
+                    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
                     id: 4005
                 }
             ]
