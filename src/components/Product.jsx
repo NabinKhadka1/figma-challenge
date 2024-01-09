@@ -1,11 +1,8 @@
-import { HomeContext } from "../context-api/HomeContext";
 import Accordion from "../components/Accordion";
-import { useContext } from "react";
 
-const Product = ({largescreen, isShown=false}) => {
-  const { product, accordions } = useContext(HomeContext);
+const Product = ({product, accordions, largescreen, isShown=false}) => {
   return (
-    <section className={`section-filter lg:px-6 lg:py-5 ${largescreen ? 'hidden lg:block':  isShown ?'xs:block lg:hidden':'hidden'}`}>
+    <section className={`section-filter lg:px-6 lg:py-5 ${largescreen ? 'hidden lg:block':  isShown ?'xs:block lg:hidden':'hidden'} `}> 
       <div className="products bg-yellow-300 rounded px-10 lg:px-20 py-8 flex justify-center items-center gap-x-16  xl:max-w-7xl xl:m-auto">
         <div className="products__info">
           <p className="products__title text-3xl lg:text-5xl font-semibold">

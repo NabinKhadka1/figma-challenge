@@ -12,10 +12,10 @@ const Accordion = ({ accordion }) => {
           className="justify-self-end"
           onClick={() => setShowAccordion(!showAccordion)}
         >
-          <img src={dropdownImg} alt="dropdown" />
+          <img src={dropdownImg} alt="dropdown" style={showAccordion ? {transform:'rotate(180deg)'}:{}}/>
         </button>
       </div>
-      {showAccordion && <p className="py-1 bg-gray-300">{desc}</p>}
+      {showAccordion && <p className="px-4 py-2 bg-gray-300">{desc}</p>}
     </>
   );
 };

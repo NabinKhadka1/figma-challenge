@@ -1,10 +1,16 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect, useRef, useState } from "react";
 import { HomeContext } from "../context-api/HomeContext";
 import Product from "./Product";
 
 const Card = ({ card }) => {
   const [mobClick, setMobClick] = useState(false);
-  const { handleChoice } = useContext(HomeContext);
+  const { handleChoice, buttonRef} = useContext(HomeContext);
+  const btnRef = useRef();
+
+  useEffect(() => {
+    buttonRef.current[card.id - 1] = btnRef;
+  }, [buttonRef, card]);
+
   const handleClick = (e, cardId) => {
     e.preventDefault();
 
@@ -16,10 +22,10 @@ const Card = ({ card }) => {
     currentElement.style.backgroundColor = "#FFD540";
     handleChoice(cardId);
   };
-  const mobileHandleClick = (e,cardId) => {
+
+  const mobileHandleClick = (e) => {
     e.preventDefault();
     setMobClick((prev) => !prev);
-    handleChoice(cardId);
   }
 
   return (
@@ -29,7 +35,7 @@ const Card = ({ card }) => {
         <p className="card1__title">{card.title}</p>
         <button
           className="lg:hidden"
-          onClick={(e) => mobileHandleClick(e,card.id)}
+          onClick={(e) => mobileHandleClick(e)}
         >
           <img src={card.imgPlus} alt="plus" />
         </button>
@@ -40,11 +46,12 @@ const Card = ({ card }) => {
       <button
         className={`card__cta card${card.id}__cta hidden bg-gray-300 hover:bg-yellow-200 lg:rounded-tr-3xl gap-2.5 p-3 w-6/12 lg:flex lg:justify-center lg:items-center ${card.id == 1 ? "bg-active-button" : "bg-normal-button"}`}
         onClick={(e) => handleClick(e, card.id)}
+        ref={btnRef}
       >
         <span>{card.cta_desc}</span>
         <img src={card.cta_img} alt="downarrow" />
       </button>
-      <Product largescreen={false} isShown={mobClick} />
+      <Product largescreen={false} isShown={mobClick} product={card.products} accordions={card.products.accordions}/>
     </div>
   );
 };

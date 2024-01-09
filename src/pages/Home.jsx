@@ -1,10 +1,17 @@
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import Card from "../components/Card";
 import { HomeContext } from "../context-api/HomeContext";
 import Product from "../components/Product";
 
 const Home = () => {
   const { cardsData} = useContext(HomeContext);
+  const { product, accordions, buttonRef } = useContext(HomeContext);
+
+  useEffect(()=>{
+    if(buttonRef.current.length){
+      buttonRef.current[0].current.click()  
+    }
+  },[])
   return (
     <>
       <section className="section px-6 py-6 font-body">
@@ -22,7 +29,7 @@ const Home = () => {
           ))}
         </div>
       </section>
-      <Product largescreen={true}/>
+      <Product largescreen={true} product={product} accordions={accordions}/>
     </>
   );
 };
